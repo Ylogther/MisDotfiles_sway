@@ -1,46 +1,41 @@
 {
-  "layer": "top",
-  "position": "top",
-  "height": 24,
-  "modules-left": ["workspaces"],
-  "modules-center": [],
-  "modules-right": ["custom/weather", "network", "battery", "pulseaudio", "clock", "tray"],
+    "layer": "top",
+    "position": "top",
+    "height": 26,
+    "modules-left": ["workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["network", "pulseaudio", "battery", "tray"],
 
-  "clock": {
-    "format": " %H:%M"
-  },
+    "clock": {
+        "format": "%H:%M  %d/%m"
+    },
 
-  "battery": {
-    "format": "{icon} {capacity}%",
-    "format-charging": "⚡ {capacity}%",
-    "format-icons": ["󰁺", "󰁼", "󰁿"]
-  },
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-charging": "⚡ {capacity}%",
+        "format-icons": ["", "", "", "", ""],
+        "tooltip": false
+    },
 
-  "network": {
-    "format-wifi": " {signalStrength}%",
-    "format-ethernet": "󰈁 {ipaddr}",
-    "format-disconnected": "⚠",
-    "tooltip": false
-  },
+    "network": {
+        "format-wifi": "WiFi {signalStrength}%",
+        "format-ethernet": "Eth {ifname}",
+        "format-disconnected": "Disconnected"
+    },
 
-  "pulseaudio": {
-    "format": " {volume}%",
-    "format-muted": "",
-    "on-click": "pamixer -t",
-    "on-scroll-up": "pamixer -i 5",
-    "on-scroll-down": "pamixer -d 5"
-  },
+    "pulseaudio": {
+        "format": "Vol {volume}%",
+        "format-muted": "Muted",
+        "on-click": "pamixer -t"
+    },
 
-  "custom/weather": {
-    "exec": "~/.config/waybar/scripts/weather.py",
-    "interval": 900,
-    "return-type": "json",
-    "format": "{text}",
-    "tooltip": true,
-    "tooltip-format": "{tooltip}"
-  },
+    "tray": {
+        "icon-size": 14,
+        "spacing": 6
+    },
 
-  "tray": {
-    "icon-size": 14
-  }
+    "workspaces": {
+        "all-outputs": true,
+        "format": "{name}"
+    }
 }
