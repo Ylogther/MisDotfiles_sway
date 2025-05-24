@@ -1,0 +1,16 @@
+2025-05-24 10:52:40.283 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 54ms.
+2025-05-24 10:52:40.373 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 43ms.
+2025-05-24 10:52:40.420 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 23ms.
+2025-05-24 10:52:40.505 [warning] Creation of workbench contribution 'workbench.contrib.notebookChatContribution' took 21ms.
+2025-05-24 10:52:46.525 [info] Started local extension host with pid 3381.
+2025-05-24 10:52:51.009 [info] ComputeTargetPlatform: linux-x64
+2025-05-24 10:52:54.347 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/ylogther/.config/waybar/style.css' (Error: File Modified Since) file:///home/ylogther/.config/waybar/style.css
+2025-05-24 10:52:59.378 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/ylogther/.config/waybar/config.jsonc' (Error: File Modified Since) file:///home/ylogther/.config/waybar/config.jsonc
+2025-05-24 11:01:20.684 [info] Extension host (LocalProcess pid: 3381) is unresponsive.
+2025-05-24 11:01:21.919 [info] Extension host (LocalProcess pid: 3381) is responsive.
+2025-05-24 11:01:36.058 [info] Extension host (LocalProcess pid: 3381) is unresponsive.
+2025-05-24 11:01:37.211 [info] Extension host (LocalProcess pid: 3381) is responsive.
+2025-05-24 11:01:43.508 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 162ms.
+2025-05-24 11:01:43.938 [warning] Creation of workbench contribution 'workbench.contrib.dynamicWindowConfiguration' took 111ms.
+2025-05-24 11:01:47.297 [info] [perf] Render performance baseline is -1ms
+2025-05-24 11:45:25.323 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.workingCopyHistory

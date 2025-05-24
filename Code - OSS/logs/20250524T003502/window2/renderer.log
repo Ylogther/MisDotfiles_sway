@@ -1,0 +1,23 @@
+2025-05-24 00:35:15.500 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 85ms.
+2025-05-24 00:35:15.704 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 115ms.
+2025-05-24 00:35:15.801 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 65ms.
+2025-05-24 00:35:15.844 [warning] Creation of workbench contribution 'workbench.contrib.localTerminalBackend' took 22ms.
+2025-05-24 00:35:15.906 [warning] Creation of workbench contribution 'workbench.contrib.textMateTokenizationInstantiator' took 21ms.
+2025-05-24 00:35:16.005 [warning] Creation of workbench contribution 'mcpContextKeys' took 30ms.
+2025-05-24 00:35:16.041 [warning] Creation of workbench contribution 'workbench.contrib.interactiveDocument' took 23ms.
+2025-05-24 00:35:16.098 [warning] Creation of workbench contribution 'workbench.contrib.userDataProfiles' took 26ms.
+2025-05-24 00:35:25.740 [info] Started local extension host with pid 987.
+2025-05-24 00:35:31.485 [info] ComputeTargetPlatform: linux-x64
+2025-05-24 00:35:36.172 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/ylogther/.config/sway/config' (Error: File Modified Since) file:///home/ylogther/.config/sway/config
+2025-05-24 00:36:08.980 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/ylogther/.config/Code%20-%20OSS/User/settings.json 
+2025-05-24 00:36:09.011 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+2025-05-24 00:36:09.269 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 264ms.
+2025-05-24 00:36:09.927 [warning] [backup tracker] suspended, ignoring unregister event vscode-userdata:/home/ylogther/.config/Code%20-%20OSS/User/settings.json 
+2025-05-24 00:36:14.988 [warning] Creation of workbench contribution 'workbench.contrib.dropOrPasteIntoSchema' took 136ms.
+2025-05-24 00:36:16.644 [info] [perf] Render performance baseline is -1ms
+2025-05-24 00:36:51.744 [info] Extension host (LocalProcess pid: 987) is unresponsive.
+2025-05-24 00:36:52.492 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/ylogther/.config/sway/config' (Error: File Modified Since) file:///home/ylogther/.config/sway/config
+2025-05-24 00:36:52.744 [info] [lifecycle]: Shutdown was prevented by final veto (id: veto.backups)
+2025-05-24 00:36:53.256 [info] Extension host (LocalProcess pid: 987) is responsive.
+2025-05-24 00:37:04.488 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+2025-05-24 00:37:04.547 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/ylogther/.config/sway/config 

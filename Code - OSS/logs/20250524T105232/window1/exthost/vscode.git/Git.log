@@ -1,0 +1,47 @@
+2025-05-24 11:01:43.930 [info] [main] Log level: Info
+2025-05-24 11:01:43.930 [info] [main] Validating found git in: "git"
+2025-05-24 11:01:43.931 [info] [main] Using git "2.49.0" from "git"
+2025-05-24 11:01:43.931 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-24 11:01:43.931 [info] > git rev-parse --show-toplevel [1846ms]
+2025-05-24 11:01:43.931 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:01:43.931 [info] > git rev-parse --show-toplevel [1083ms]
+2025-05-24 11:01:43.931 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:01:43.977 [info] > git rev-parse --show-toplevel [89ms]
+2025-05-24 11:01:43.982 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:01:44.787 [info] > git rev-parse --show-toplevel [89ms]
+2025-05-24 11:01:44.797 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:01:45.284 [info] > git rev-parse --show-toplevel [214ms]
+2025-05-24 11:01:45.295 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:01:45.650 [info] > git rev-parse --show-toplevel [81ms]
+2025-05-24 11:01:45.650 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:01:45.732 [info] > git rev-parse --show-toplevel [40ms]
+2025-05-24 11:01:45.734 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:01:46.068 [info] > git rev-parse --show-toplevel [125ms]
+2025-05-24 11:01:46.076 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:01:46.267 [info] > git rev-parse --show-toplevel [69ms]
+2025-05-24 11:01:46.271 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:01:46.514 [info] > git rev-parse --show-toplevel [94ms]
+2025-05-24 11:01:46.532 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:01:46.671 [info] > git rev-parse --show-toplevel [22ms]
+2025-05-24 11:01:46.672 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:01:46.788 [info] > git rev-parse --show-toplevel [28ms]
+2025-05-24 11:01:46.788 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:01:46.858 [info] > git rev-parse --show-toplevel [23ms]
+2025-05-24 11:01:46.859 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:01:46.866 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-24 11:02:02.740 [info] > git rev-parse --show-toplevel [43ms]
+2025-05-24 11:02:02.741 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:02:35.943 [info] > git rev-parse --show-toplevel [63ms]
+2025-05-24 11:02:35.944 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:14:58.002 [info] > git rev-parse --show-toplevel [41ms]
+2025-05-24 11:14:58.007 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:15:02.281 [info] > git rev-parse --show-toplevel [36ms]
+2025-05-24 11:15:02.283 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:17:16.140 [info] > git rev-parse --show-toplevel [36ms]
+2025-05-24 11:17:16.141 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:17:33.572 [info] > git rev-parse --show-toplevel [34ms]
+2025-05-24 11:17:33.572 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:42:06.030 [info] > git rev-parse --show-toplevel [74ms]
+2025-05-24 11:42:06.038 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-24 11:42:08.509 [info] > git rev-parse --show-toplevel [45ms]
+2025-05-24 11:42:08.509 [info] fatal: not a git repository (or any of the parent directories): .git

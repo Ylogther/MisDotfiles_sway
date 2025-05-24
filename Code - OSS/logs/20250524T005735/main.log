@@ -1,0 +1,7 @@
+2025-05-24 00:57:38.549 [info] update#setState disabled
+2025-05-24 00:57:38.549 [info] update#ctor - updates are disabled as there is no update URL
+2025-05-24 01:10:47.006 [error] [sudo-prompt] received stderr: Error executing command as another user: No authentication agent found.
+
+2025-05-24 01:10:52.017 [error] [sudo-prompt] received stderr: Error executing command as another user: No authentication agent found.
+
+2025-05-24 01:11:48.763 [info] Extension host with pid 2074 exited with code: 0, signal: unknown.

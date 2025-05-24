@@ -1,0 +1,14 @@
+2025-05-24 12:07:50.367 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 55ms.
+2025-05-24 12:07:50.466 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 51ms.
+2025-05-24 12:07:50.516 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 24ms.
+2025-05-24 12:07:57.779 [info] Started local extension host with pid 1258.
+2025-05-24 12:08:00.810 [info] ComputeTargetPlatform: linux-x64
+2025-05-24 12:08:40.423 [info] Extension host (LocalProcess pid: 1258) is unresponsive.
+2025-05-24 12:08:41.017 [info] Extension host (LocalProcess pid: 1258) is responsive.
+2025-05-24 12:08:44.759 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 475ms.
+2025-05-24 12:08:46.919 [info] Extension host (LocalProcess pid: 1258) is unresponsive.
+2025-05-24 12:08:47.684 [info] [perf] Render performance baseline is -1ms
+2025-05-24 12:08:50.065 [info] Extension host (LocalProcess pid: 1258) is responsive.
+2025-05-24 12:10:13.829 [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/home/ylogther/.config/waybar/style.css' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/ylogther/.config/waybar/style.css') file:///home/ylogther/.config/waybar/style.css
+2025-05-24 12:13:02.716 [error] [text file model] handleSaveError(2) - exit - resulted in a save error: Error: Unable to write file '/home/ylogther/.config/waybar/style.css' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/ylogther/.config/waybar/style.css') file:///home/ylogther/.config/waybar/style.css
+2025-05-24 12:13:03.035 [error] [text file model] handleSaveError(2) - exit - resulted in a save error: Error: Unable to write file '/home/ylogther/.config/waybar/style.css' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/ylogther/.config/waybar/style.css') file:///home/ylogther/.config/waybar/style.css

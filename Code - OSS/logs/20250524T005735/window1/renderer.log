@@ -1,0 +1,33 @@
+2025-05-24 00:57:45.969 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 51ms.
+2025-05-24 00:57:46.051 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 38ms.
+2025-05-24 00:57:46.098 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 24ms.
+2025-05-24 00:57:55.092 [info] Started local extension host with pid 2074.
+2025-05-24 00:57:55.817 [info] ComputeTargetPlatform: linux-x64
+2025-05-24 00:58:36.226 [info] Extension host (LocalProcess pid: 2074) is unresponsive.
+2025-05-24 00:58:36.337 [warning] Creation of workbench contribution 'chat.simpleBrowser.overlay' took 102ms.
+2025-05-24 00:58:38.809 [warning] Creation of workbench contribution 'mcpDiscovery' took 115ms.
+2025-05-24 00:58:39.636 [info] Extension host (LocalProcess pid: 2074) is responsive.
+2025-05-24 00:58:44.256 [info] Extension host (LocalProcess pid: 2074) is unresponsive.
+2025-05-24 00:58:44.573 [info] Extension host (LocalProcess pid: 2074) is responsive.
+2025-05-24 00:58:56.714 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 622ms.
+2025-05-24 00:59:06.752 [info] [perf] Render performance baseline is -1ms
+2025-05-24 01:01:42.227 [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/home/ylogther/.config/waybar/config.jsonc' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/ylogther/.config/waybar/config.jsonc') file:///home/ylogther/.config/waybar/config.jsonc
+2025-05-24 01:02:21.823 [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/home/ylogther/.config/waybar/style.css' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/ylogther/.config/waybar/style.css') file:///home/ylogther/.config/waybar/style.css
+2025-05-24 01:10:13.791 [error] NoPermissions (FileSystemError): Error: EACCES: permission denied, rename '/home/ylogther/.config/waybar/config.jsonc' -> '/home/ylogther/.config/waybar/config'
+    at o9.create (file:///usr/lib/code/out/main.js:35:29610)
+    at Qi (file:///usr/lib/code/out/main.js:35:26904)
+    at Nc.jb (file:///usr/lib/code/out/main.js:46:22701)
+    at Nc.rename (file:///usr/lib/code/out/main.js:46:21091)
+2025-05-24 01:10:14.176 [error] Error: EACCES: permission denied, rename '/home/ylogther/.config/waybar/config.jsonc' -> '/home/ylogther/.config/waybar/config': NoPermissions (FileSystemError): Error: EACCES: permission denied, rename '/home/ylogther/.config/waybar/config.jsonc' -> '/home/ylogther/.config/waybar/config'
+    at o9.create (file:///usr/lib/code/out/main.js:35:29610)
+    at Qi (file:///usr/lib/code/out/main.js:35:26904)
+    at Nc.jb (file:///usr/lib/code/out/main.js:46:22701)
+    at Nc.rename (file:///usr/lib/code/out/main.js:46:21091)
+2025-05-24 01:10:14.801 [error] [text file model] handleSaveError(6) - exit - resulted in a save error: Error: Unable to write file '/home/ylogther/.config/waybar/config.jsonc' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/ylogther/.config/waybar/config.jsonc') file:///home/ylogther/.config/waybar/config.jsonc
+2025-05-24 01:10:31.049 [error] [text file model] handleSaveError(6) - exit - resulted in a save error: Error: Unable to write file '/home/ylogther/.config/waybar/config.jsonc' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/ylogther/.config/waybar/config.jsonc') file:///home/ylogther/.config/waybar/config.jsonc
+2025-05-24 01:10:40.869 [error] [text file model] handleSaveError(6) - exit - resulted in a save error: Error: Unable to write file '/home/ylogther/.config/waybar/config.jsonc' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/ylogther/.config/waybar/config.jsonc') file:///home/ylogther/.config/waybar/config.jsonc
+2025-05-24 01:10:42.574 [error] [text file model] handleSaveError(6) - exit - resulted in a save error: Error: Unable to write file '/home/ylogther/.config/waybar/config.jsonc' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/ylogther/.config/waybar/config.jsonc') file:///home/ylogther/.config/waybar/config.jsonc
+2025-05-24 01:10:42.826 [error] [text file model] handleSaveError(6) - exit - resulted in a save error: Error: Unable to write file '/home/ylogther/.config/waybar/config.jsonc' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/ylogther/.config/waybar/config.jsonc') file:///home/ylogther/.config/waybar/config.jsonc
+2025-05-24 01:10:43.157 [error] [text file model] handleSaveError(6) - exit - resulted in a save error: Error: Unable to write file '/home/ylogther/.config/waybar/config.jsonc' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/ylogther/.config/waybar/config.jsonc') file:///home/ylogther/.config/waybar/config.jsonc
+2025-05-24 01:10:47.312 [error] [text file model] handleSaveError(6) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///home/ylogther/.config/waybar/config.jsonc
+2025-05-24 01:10:52.147 [error] [text file model] handleSaveError(6) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///home/ylogther/.config/waybar/config.jsonc

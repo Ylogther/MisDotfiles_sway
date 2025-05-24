@@ -1,0 +1,24 @@
+2025-05-24 00:35:15.401 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 95ms.
+2025-05-24 00:35:15.452 [warning] Creation of workbench contribution 'workbench.contrib.notebook' took 43ms.
+2025-05-24 00:35:15.573 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 67ms.
+2025-05-24 00:35:15.652 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 42ms.
+2025-05-24 00:35:15.694 [warning] Creation of workbench contribution 'workbench.contrib.localTerminalBackend' took 24ms.
+2025-05-24 00:35:15.742 [warning] Creation of workbench contribution 'workbench.contrib.editorStatus' took 26ms.
+2025-05-24 00:35:15.807 [warning] Creation of workbench contribution 'workbench.contrib.notebookChatContribution' took 29ms.
+2025-05-24 00:35:15.880 [warning] Creation of workbench contribution 'mcpContextKeys' took 26ms.
+2025-05-24 00:35:15.916 [warning] Creation of workbench contribution 'workbench.contrib.interactiveDocument' took 27ms.
+2025-05-24 00:35:15.996 [warning] Creation of workbench contribution 'workbench.contrib.userDataProfiles' took 55ms.
+2025-05-24 00:35:36.218 [info] Started local extension host with pid 1024.
+2025-05-24 00:35:37.368 [info] ComputeTargetPlatform: linux-x64
+2025-05-24 00:36:36.534 [info] Extension host (LocalProcess pid: 1024) is unresponsive.
+2025-05-24 00:36:37.022 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1300:10062
+2025-05-24 00:36:37.473 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 212ms.
+2025-05-24 00:36:38.090 [warning] Creation of workbench contribution 'workbench.contrib.dynamicWindowConfiguration' took 116ms.
+2025-05-24 00:36:41.687 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1300:10062
+2025-05-24 00:36:42.414 [warning] Creation of workbench contribution 'workbench.contrib.dropOrPasteIntoSchema' took 118ms.
+2025-05-24 00:36:42.764 [info] [perf] Render performance baseline is -1ms
+2025-05-24 00:36:43.133 [info] Extension host (LocalProcess pid: 1024) is responsive.
+2025-05-24 00:36:48.010 [info] Extension host (LocalProcess pid: 1024) is unresponsive.
+2025-05-24 00:36:50.491 [info] Extension host (LocalProcess pid: 1024) is responsive.

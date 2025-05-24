@@ -1,0 +1,25 @@
+#configuraciones de sway propias
+
+##
+#Autostatart
+##
+include ~/.config/sway/configu/autostart.conf
+
+### Variables
+#
+include ~/.config/sway/configu/Variables.conf
+
+### Output configuration
+#
+include ~/.config/sway/configu/outputs.conf
+
+### Input configuration
+#
+include ~/.config/sway/configu/input.conf
+
+### Key bindings
+#
+include ~/.config/sway/configu/keybinds.conf
+
+include /etc/sway/config.d/*
+

@@ -1,0 +1,31 @@
+2025-05-24 10:18:23.898 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 52ms.
+2025-05-24 10:18:23.995 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 39ms.
+2025-05-24 10:18:24.046 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 27ms.
+2025-05-24 10:18:29.811 [info] Started local extension host with pid 1607.
+2025-05-24 10:18:31.170 [info] ComputeTargetPlatform: linux-x64
+2025-05-24 10:18:48.064 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-05-24 10:19:00.832 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 213ms.
+2025-05-24 10:19:06.352 [warning] Creation of workbench contribution 'workbench.contrib.dynamicWindowConfiguration' took 110ms.
+2025-05-24 10:19:22.778 [info] Extension host (LocalProcess pid: 1607) is unresponsive.
+2025-05-24 10:19:22.924 [info] [perf] Render performance baseline is -1ms
+2025-05-24 10:19:23.980 [info] Extension host (LocalProcess pid: 1607) is responsive.
+2025-05-24 10:19:29.218 [info] Extension host (LocalProcess pid: 1607) is unresponsive.
+2025-05-24 10:19:34.603 [info] Extension host (LocalProcess pid: 1607) is responsive.
+2025-05-24 10:19:35.434 [error] Unknown (FileSystemError): Failed to move 'config.jsonc' to the trash (Failed to move item to trash)
+    at o9.create (file:///usr/lib/code/out/main.js:35:29610)
+    at Qi (file:///usr/lib/code/out/main.js:35:26904)
+    at m4.y (file:///usr/lib/code/out/main.js:46:26724)
+2025-05-24 10:19:35.745 [error] Failed to move 'config.jsonc' to the trash (Failed to move item to trash): Unknown (FileSystemError): Failed to move 'config.jsonc' to the trash (Failed to move item to trash)
+    at o9.create (file:///usr/lib/code/out/main.js:35:29610)
+    at Qi (file:///usr/lib/code/out/main.js:35:26904)
+    at m4.y (file:///usr/lib/code/out/main.js:46:26724)
+2025-05-24 10:19:39.829 [error] NoPermissions (FileSystemError): Error: EACCES: permission denied, unlink '/home/ylogther/.config/waybar/config.jsonc'
+    at o9.create (file:///usr/lib/code/out/main.js:35:29610)
+    at Qi (file:///usr/lib/code/out/main.js:35:26904)
+    at Nc.jb (file:///usr/lib/code/out/main.js:46:22701)
+    at Nc.delete (file:///usr/lib/code/out/main.js:46:20822)
+2025-05-24 10:19:40.077 [error] Error: EACCES: permission denied, unlink '/home/ylogther/.config/waybar/config.jsonc': NoPermissions (FileSystemError): Error: EACCES: permission denied, unlink '/home/ylogther/.config/waybar/config.jsonc'
+    at o9.create (file:///usr/lib/code/out/main.js:35:29610)
+    at Qi (file:///usr/lib/code/out/main.js:35:26904)
+    at Nc.jb (file:///usr/lib/code/out/main.js:46:22701)
+    at Nc.delete (file:///usr/lib/code/out/main.js:46:20822)

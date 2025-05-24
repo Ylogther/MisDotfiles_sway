@@ -1,0 +1,15 @@
+2025-05-23 23:08:57.590 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 90ms.
+2025-05-23 23:08:57.669 [warning] Creation of workbench contribution 'workbench.contrib.registerCellSchemas' took 21ms.
+2025-05-23 23:08:57.748 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 65ms.
+2025-05-23 23:08:57.832 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 50ms.
+2025-05-23 23:08:57.888 [warning] Creation of workbench contribution 'workbench.contrib.localTerminalBackend' took 46ms.
+2025-05-23 23:08:58.029 [warning] Creation of workbench contribution 'mcpContextKeys' took 24ms.
+2025-05-23 23:08:58.052 [warning] Creation of workbench contribution 'workbench.contrib.interactiveDocument' took 21ms.
+2025-05-23 23:08:58.094 [warning] Creation of workbench contribution 'workbench.contrib.userDataProfiles' took 22ms.
+2025-05-23 23:09:04.403 [info] Started local extension host with pid 1087.
+2025-05-23 23:09:04.792 [info] ComputeTargetPlatform: linux-x64
+2025-05-23 23:09:15.832 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-05-23 23:09:48.796 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 160ms.
+2025-05-23 23:09:50.615 [info] [perf] Render performance baseline is -1ms
+2025-05-23 23:22:22.326 [info] Extension host (LocalProcess pid: 1087) is unresponsive.
+2025-05-23 23:22:22.842 [info] Extension host (LocalProcess pid: 1087) is responsive.

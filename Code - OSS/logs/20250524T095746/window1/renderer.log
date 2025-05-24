@@ -1,0 +1,13 @@
+2025-05-24 09:58:08.979 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 61ms.
+2025-05-24 09:58:09.064 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 39ms.
+2025-05-24 09:58:09.112 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 25ms.
+2025-05-24 09:58:09.254 [warning] Creation of workbench contribution 'workbench.contrib.interactiveDocument' took 30ms.
+2025-05-24 09:58:23.831 [info] Started local extension host with pid 1047.
+2025-05-24 09:58:25.758 [info] ComputeTargetPlatform: linux-x64
+2025-05-24 09:58:46.590 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/ylogther/.config/waybar/style.css' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/ylogther/.config/waybar/style.css') file:///home/ylogther/.config/waybar/style.css
+2025-05-24 09:58:53.582 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/ylogther/.config/waybar/config.jsonc' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/ylogther/.config/waybar/config.jsonc') file:///home/ylogther/.config/waybar/config.jsonc
+2025-05-24 09:59:12.379 [info] Extension host (LocalProcess pid: 1047) is unresponsive.
+2025-05-24 09:59:13.205 [info] Extension host (LocalProcess pid: 1047) is responsive.
+2025-05-24 09:59:42.892 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 126ms.
+2025-05-24 09:59:47.938 [info] [perf] Render performance baseline is -1ms
+2025-05-24 10:41:01.779 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage

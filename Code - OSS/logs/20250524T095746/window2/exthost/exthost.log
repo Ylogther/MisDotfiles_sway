@@ -1,0 +1,14 @@
+2025-05-24 10:19:15.486 [info] Extension host with pid 1607 started
+2025-05-24 10:19:15.491 [info] Skipping acquiring lock for /home/ylogther/.config/Code - OSS/User/workspaceStorage/477d9af5eef0fdc5e5a415ba1affc37f.
+2025-05-24 10:19:17.477 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-24 10:19:19.009 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-24 10:19:22.643 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-24 10:19:23.611 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-24 10:19:23.834 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-24 10:19:24.538 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-24 10:19:25.172 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-24 10:19:32.460 [info] Eager extensions activated
+2025-05-24 10:19:33.202 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-24 10:19:33.670 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-24 10:19:56.604 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-24 10:19:57.095 [info] Extension host with pid 1607 exiting with code 0

@@ -1,0 +1,6 @@
+2025-05-23 23:08:06.626 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 57ms.
+2025-05-23 23:08:06.709 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 38ms.
+2025-05-23 23:08:06.754 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 24ms.
+2025-05-23 23:08:15.095 [info] Started local extension host with pid 920.
+2025-05-23 23:08:34.025 [info] ComputeTargetPlatform: linux-x64
+2025-05-23 23:08:34.412 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage
