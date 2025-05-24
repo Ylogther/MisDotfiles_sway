@@ -14,3 +14,6 @@
 2025-05-24 12:19:39.964 [warning] [Decorations] CAPPING events from decorations provider vscode.git 371
 2025-05-24 12:19:41.888 [warning] [Decorations] CAPPING events from decorations provider vscode.git 372
 2025-05-24 12:22:45.714 [warning] [Decorations] CAPPING events from decorations provider vscode.git 372
+2025-05-24 12:47:32.784 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-24 12:50:24.942 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-24 12:50:25.333 [info] Extension host with pid 1258 exiting with code 0

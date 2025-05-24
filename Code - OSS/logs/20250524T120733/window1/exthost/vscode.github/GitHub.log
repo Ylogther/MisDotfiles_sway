@@ -1,1 +1,2 @@
 2025-05-24 12:08:55.415 [info] Log level: Info
+2025-05-24 12:47:34.517 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for Ylogther/MisDotfiles_sway: Error: No GitHub authentication session available.

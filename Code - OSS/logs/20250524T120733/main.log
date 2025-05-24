@@ -1,2 +1,4 @@
 2025-05-24 12:07:42.155 [info] update#setState disabled
 2025-05-24 12:07:42.155 [info] update#ctor - updates are disabled as there is no update URL
+2025-05-24 12:50:25.515 [info] Extension host with pid 1258 exited with code: 0, signal: unknown.
+2025-05-24 12:50:26.526 [error] Extension host with pid 1258 still exists, forcefully killing it...
