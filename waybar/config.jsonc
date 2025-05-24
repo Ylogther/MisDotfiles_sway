@@ -2,12 +2,13 @@
     "layer": "top",
     "position": "top",
     "height": 26,
-    "modules-left": ["workspaces"],
+    "modules-left": ["wlr/workspaces"],
     "modules-center": ["clock"],
     "modules-right": ["network", "pulseaudio", "battery", "tray"],
 
     "clock": {
-        "format": "%H:%M  %d/%m"
+        "format": "{:%H:%M  %d/%m}",
+        "tooltip-format": "{:%A, %d %B %Y}"
     },
 
     "battery": {
@@ -34,8 +35,10 @@
         "spacing": 6
     },
 
-    "workspaces": {
-        "all-outputs": true,
-        "format": "{name}"
+    "wlr/workspaces": {
+        "on-click": "activate",
+        "format": "{icon} {name}",
+        "disable-scroll": false
     }
 }
+
