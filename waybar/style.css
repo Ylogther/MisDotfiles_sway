@@ -26,6 +26,7 @@ tooltip {
     padding: 0 6px;
     margin: 0 2px;
     color: #7aa2f7;
+    border-radius: 4px;
 }
 
 #workspaces button.active {
@@ -64,4 +65,5 @@ tooltip {
 #tray {
     background-color: transparent;
 }
+
 
