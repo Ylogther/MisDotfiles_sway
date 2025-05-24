@@ -1,101 +1,46 @@
 {
   "layer": "top",
   "position": "top",
-  "mod": "dock",
-  "exclusive": true,
-  "passthrough": false,
-  "gtk-layer-shell": true,
-  "height": 30,
-
-  "modules-left": ["wlr/workspaces"],
-  "modules-center": ["clock"],
-  "modules-right": [
-    "network",
-    "pulseaudio",
-    "battery",
-    "tray"
-  ],
+  "height": 24,
+  "modules-left": ["workspaces"],
+  "modules-center": [],
+  "modules-right": ["custom/weather", "network", "battery", "pulseaudio", "clock", "tray"],
 
   "clock": {
-    "format": " %H:%M",
-    "tooltip-format": "<big>{:%A, %d %B %Y}</big>"
-  },
-
-  "wlr/workspaces": {
-    "disable-scroll": true,
-    "all-outputs": true,
-    "on-click": "activate",
-    "persistent_workspaces": {
-      "1": [], "2": [], "3": [], "4": [], "5": [],
-      "6": [], "7": [], "8": [], "9": [], "10": []
-    }
-  },
-
-  "tray": {
-    "icon-size": 14,
-    "spacing": 6
-  },
-
-  "network": {
-    "format-wifi": " {signalStrength}%",
-    "format-ethernet": " {ipaddr}",
-    "format-disconnected": "⚠"
-  },
-
-  "pulseaudio": {
-    "format": "{icon} {volume}%",
-    "format-muted": "",
-    "on-click": "pamixer -t",
-    "on-scroll-up": "pamixer -i 5",
-    "on-scroll-down": "pamixer -d 5",
-    "format-icons": {
-      "default": ["", "", ""]
-    }
+    "format": " %H:%M"
   },
 
   "battery": {
     "format": "{icon} {capacity}%",
-    "format-charging": " {capacity}%",
-    "format-plugged": " {capacity}%",
-    "format-icons": ["󰁺", "󰁼", "󰁿", "󰂁", "󰂂"]
+    "format-charging": "⚡ {capacity}%",
+    "format-icons": ["󰁺", "󰁼", "󰁿"]
   },
 
-  // 🔧 Extras (comentados para activarlos cuando quieras)
+  "network": {
+    "format-wifi": " {signalStrength}%",
+    "format-ethernet": "󰈁 {ipaddr}",
+    "format-disconnected": "⚠",
+    "tooltip": false
+  },
 
-  // "hyprland/window": {
-  //   "format": "{}"
-  // },
+  "pulseaudio": {
+    "format": " {volume}%",
+    "format-muted": "",
+    "on-click": "pamixer -t",
+    "on-scroll-up": "pamixer -i 5",
+    "on-scroll-down": "pamixer -d 5"
+  },
 
-  // "temperature": {
-  //   "format": "{temperatureC}°C ",
-  //   "critical-threshold": 80,
-  //   "format-critical": "{temperatureC}°C "
-  // },
+  "custom/weather": {
+    "exec": "~/.config/waybar/scripts/weather.py",
+    "interval": 900,
+    "return-type": "json",
+    "format": "{text}",
+    "tooltip": true,
+    "tooltip-format": "{tooltip}"
+  },
 
-  // "backlight": {
-  //   "format": "󰃞 {percent}%",
-  //   "on-scroll-up": "brightnessctl set 1%+",
-  //   "on-scroll-down": "brightnessctl set 1%-"
-  // },
-
-  // "pulseaudio#microphone": {
-  //   "format-source": "Mic {volume}%",
-  //   "format-source-muted": "Mic ",
-  //   "on-click": "pamixer --default-source -t"
-  // },
-
-  // "custom/power_profile": {
-  //   "exec": "asusctl profile -p | sed s:'Active profile is'::",
-  //   "interval": 30,
-  //   "format": "󰈐{}",
-  //   "on-click": "asusctl profile -n; pkill -SIGRTMIN+8 waybar",
-  //   "signal": 8
-  // },
-
-  // "custom/weather": {
-  //   "format": "{}",
-  //   "interval": 30,
-  //   "exec": "~/.config/waybar/scripts/waybar-wttr.py",
-  //   "return-type": "json"
-  // }
+  "tray": {
+    "icon-size": 14
+  }
 }
